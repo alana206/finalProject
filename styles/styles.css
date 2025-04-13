@@ -96,47 +96,30 @@ footer .social-links img {
 
 footer {
     position: fixed;
-    /* Fixes the element relative to the viewport */
     bottom: 0;
-    /* Aligns it to the bottom */
     left: 0;
-    /* Aligns it to the left */
     width: 100%;
-    /* Makes it span the full width */
     background-color: #333;
-    /* Add a background color (adjust as needed) */
     color: white;
-    /* Adjust text color for visibility if needed */
     padding: 10px 0;
-    /* Add some padding (adjust as needed) */
     text-align: center;
-    /* Center the content */
     z-index: 1000;
-    /* Ensure it stays on top of other content */
-
-    /* Keep your existing footer styles below or integrate them */
-    /* e.g., styles for h2, .social-links, etc. */
 }
 
 body {
     padding-bottom: 100px;
-    /* Adjust this value based on your footer's actual height */
-    /* Add any other existing body styles here */
 }
 
 main {
     padding-bottom: 100px;
-    /* Adjust this value */
-    /* Add any other existing main styles here */
 }
 
 #about-me {
     text-align: center;
     margin: 0 auto;
-    max-width: 800px; /* Optional: To limit the width of the text */
+    max-width: 800px;
 }
 
-/* Hero section styles */
 #hero h1 {
     font-size: 1.5em;
 }
