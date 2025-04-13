@@ -1,4 +1,3 @@
-/* style.css - Retro Gamer Theme */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
@@ -6,7 +5,7 @@ body {
     background-color: #111;
     color: #00ff00;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.6;
     text-align: center;
 }
@@ -18,10 +17,7 @@ footer {
     border-bottom: 2px solid #00ff00;
 }
 
-header .logo {
-    font-size: 20px;
-    letter-spacing: 1px;
-}
+
 
 nav ul {
     list-style: none;
@@ -35,11 +31,15 @@ nav ul {
 nav ul li a {
     color: #00ff00;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
     color: #ff00ff;
+    background-color: #00ff00;
+    border-radius: 5px;
 }
 
 main {
@@ -49,7 +49,7 @@ main {
 h1,
 h2 {
     color: #00ffff;
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 2px #070707;
 }
 
 .video-grid {
@@ -61,11 +61,21 @@ h2 {
 }
 
 .video-item iframe {
-    border: 3px solid #00ff00;
+    border: 3px dotted #00ff00;
 }
 
 form p {
     margin: 10px 0;
+}
+
+a:hover {
+    color: #00ffff;
+    text-decoration: none;
+    background-color: #00ff00;
+}
+
+:visited {
+    color: #ff00ff;
 }
 
 input,
@@ -85,21 +95,20 @@ button:hover {
     color: #000;
 }
 
-footer {
-    margin-top: 40px;
-}
 
 footer .social-links img {
     width: 32px;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 footer {
     position: fixed;
     bottom: 0;
+    margin-top: 40px;
+    border: 2px solid #00ff00;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #000000;
     color: white;
     padding: 10px 0;
     text-align: center;
